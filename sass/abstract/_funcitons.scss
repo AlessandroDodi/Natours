@@ -1,0 +1,13 @@
+// @function row-width($col-n, $of-n) {
+//   @if ($col-n == 1) {
+//     @return ((100% - (($of-n - 1) * #{$gutter-horizontal})) / $of-n);
+//   }
+//   @return 100;
+// }
+// @return (
+//   $col-n *
+//     (
+//       (100% - ($of-n - 1) * (#{$gutter-horizontal}) / $of-n) +
+//         (($col-n - 1) * ($gutter-horizontal))
+//     )
+// );
